@@ -1,0 +1,125 @@
+body {
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #000305;
+    line-height: 1.5;
+    background: #F5F4EF;
+
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+header {
+    padding: 40px 0;
+}
+h1, h2, h3, h4 {
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 24px;
+    color: #c74350;
+    margin: 10 0 0 0;
+}
+h3, h4 {
+    font-size: 20px;
+}
+a {
+    color: #c74350;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    border-bottom: 1px solid  #c74350;
+}
+a:hover, a:focus, a:active {
+    color: #fff;
+    background-color: #c74350;
+}
+/*  Header style */
+ header {
+     padding: 40px 0 20px 0;
+ }
+ .title a{
+     color: #000305;
+     border: none;
+ }
+ .title a:hover,  .title a:focus,  .title a:active {
+     color: #c74350;
+     background-color: transparent;
+ }
+ .title span {
+     display: block;
+ }
+ .title span:last-of-type {
+     font-size: 18px;
+ }
+ /* Aside style */
+ .menu {
+     padding: 0;
+     list-style: none;
+     display: inline-block;
+ }
+ .menu li {
+     border-bottom:  1px solid #fff;
+ }
+ .menu a {
+     display: block;
+     padding: 5px;
+     color: black;
+     border-bottom: 1px solid #F5F4EF;
+ }
+ .menu a:hover,
+ .menu a:focus,
+ .menu a:active {
+     color: white;
+ }
+ /* Main style */
+ .section {
+     background: #fff;
+     border-radius: 15px;
+     padding: 15px 25px;
+     margin-bottom: 25px;
+ }
+ article h3 a {
+     color: black;
+     border: none;
+ }
+ article h4 {
+     margin-bottom: 5px;
+ }
+ article p {
+     margin-bottom: 0;
+ }
+ article h4 a {
+     border: none;
+ }
+ .section article {
+     padding: 15px 0;
+ }
+.section article + article{
+    border-top: 1px solid #f5f5f5;
+}
+/* Footer styles */
+.row {
+    display: flex;
+    align-items: center;
+}
+.row--top {
+    align-items: flex-start;
+}
+.col + .col {
+    margin-left: 25px;
+}
+.col--shrink {
+    flex: 1 0 auto;
+}
+footer h4 a {
+    border: none;
+}
+.copyright {
+    text-align: right;
+}
