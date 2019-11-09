@@ -83,6 +83,7 @@ a:hover, a:focus, a:active {
      border-radius: 15px;
      padding: 15px 25px;
      margin-bottom: 25px;
+     border: 2px solid #ad0a1a;
  }
  article h3 a {
      color: black;
