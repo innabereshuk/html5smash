@@ -7,7 +7,7 @@ body {
 
 }
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 header {
@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
     font-size: 24px;
-    color: #c74350;
+    color: #c74550;
     margin: 10 0 0 0;
 }
 h3, h4 {
