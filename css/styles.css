@@ -36,7 +36,7 @@ a {
     border-bottom: 1px solid  #c74350;
 }
 a:hover, a:focus, a:active {
-    color: #fff;
+    color: #ff55ff;
     background-color: #c74350;
 }
 /*  Header style */
@@ -75,7 +75,7 @@ a:hover, a:focus, a:active {
  .menu a:hover,
  .menu a:focus,
  .menu a:active {
-     color: white;
+     color: black;
  }
  /* Main style */
  .section {
